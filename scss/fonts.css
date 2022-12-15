@@ -1,1 +1,27 @@
-/*# sourceMappingURL=fonts.css.map */
+@font-face {
+  font-family: "Futura PT";
+  font-weight: 400;
+  src: url(../fonts/FuturaPT-Book.woff), url(../fonts/FuturaPT-Book.woff2);
+}
+@font-face {
+  font-family: "Futura PT";
+  font-weight: 500;
+  src: url(../fonts/FuturaPT-Medium.woff), url(../fonts/FuturaPT-Medium.woff2);
+}
+@font-face {
+  font-family: "Futura PT";
+  font-weight: 700;
+  src: url(../fonts/FuturaPT-Bold.woff), url(../fonts/FuturaPT-Bold.woff2);
+}
+/* gaegu-regular - latin */
+@font-face {
+  font-family: "Gaegu";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/gaegu-v15-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/gaegu-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/gaegu-v15-latin-regular.woff2") format("woff2"), url("../fonts/gaegu-v15-latin-regular.woff") format("woff"), url("../fonts/gaegu-v15-latin-regular.ttf") format("truetype"), url("../fonts/gaegu-v15-latin-regular.svg#Gaegu") format("svg"); /* Legacy iOS */
+}
+body {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 500;
+}/*# sourceMappingURL=fonts.css.map */
