@@ -372,9 +372,42 @@ body {
 .main-page__content {
   position: relative;
   display: flex;
+  padding-top: 190px;
 }
 
 .main-page__content img[src*=decors],
 .main-page__content img[src*=parrot] {
   position: absolute;
+}
+
+.main-page__content img[src*=decors]:first-child {
+  top: -160px;
+  left: -380px;
+  z-index: -1;
+}
+
+.main-page__content-start img {
+  position: relative;
+  z-index: 5;
+}
+
+.main-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.main-title span {
+  color: #78C0DE;
+}
+
+.main-subtitle {
+  max-width: 495px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
 }/*# sourceMappingURL=style.css.map */
