@@ -205,6 +205,10 @@ body{
     color: #333333;
 }
 
+.main-page{
+    overflow: hidden;
+}
+
 .main-page__content{
     position: relative;
     display: flex;
@@ -227,7 +231,6 @@ body{
     right: -105px;
 
 }
-
 
 .main-page__content-start img{
     position: relative;
