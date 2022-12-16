@@ -273,16 +273,18 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11985.019846763413!2d69.2452071!3d41.3250689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x23ac4a5a705b84ab!2sNajot%20ta&#39;lim!5e0!3m2!1sru!2s!4v1671162013171!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
         <div class="callback-right">
-          <h2 class="section-title">
-            Обратная связь
-          </h2>
-          <p class="callback-subtitle">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
-          <form action="https://echo.htmlacademy.ru/" method="post" enctype="multipart/form-data">
-            <input type="text" name="user__name">
-            <input type="email" name="user__email">
-            <textarea name="user__txt" minlength="3"></textarea>
-            <button type="submit">Задать нам вопрос</button>
-          </form>
+          <div class="callback-content">
+            <h2 class="section-title">
+              Обратная связь
+            </h2>
+            <p class="callback-subtitle">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
+            <form action="https://echo.htmlacademy.ru/" method="post" enctype="multipart/form-data">
+              <input type="text" name="user__name" placeholder="Ваше имя">
+              <input type="email" name="user__email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email для обратной связи">
+              <textarea name="user__txt" minlength="3" placeholder="Опишите Ваш вопрос.&#10Например: в каком возрасте можно прививать от бешенства?"></textarea>
+              <button type="submit">Задать нам вопрос</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
@@ -325,8 +327,9 @@
                 </div>
               </div>
           </div>
-           
-            <address class="header-top__content__address">г. Мариуполь, проспект Победы, 48а</address>
+            <address class="header-top__content__address">г. Мариуполь, проспект Победы, 48а
+
+            </address>
             <ul class="header-top__phone-links-list">
               <li class="header-top__phone-links-list-item">
                 <a class="header-top phone-link" href="tel:+0676347574">(067) 634 - 75 - 74</a>
@@ -340,6 +343,7 @@
           </ul>
           </div>
         </div>
+        <div class="copy">© 2020 example. All Rights Reserved.</div>
       </div>
     </footer>
     <script src="./js/index.js"></script>

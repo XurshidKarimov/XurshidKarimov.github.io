@@ -161,6 +161,7 @@ body {
 
 body {
   background: url(../assets/images/allpage-bg.png);
+  overflow-x: hidden;
 }
 
 .container {
@@ -703,6 +704,10 @@ body {
   cursor: pointer;
 }
 
+.poleznie {
+  margin-bottom: 260px;
+}
+
 .poleznie .section-title {
   margin-bottom: 80px;
 }
@@ -800,4 +805,181 @@ body {
 .poleznie-item:nth-child(1n+1) .poleznie-item-content .poleznie-item-content__subtitle {
   margin-bottom: 35px;
   color: #949494;
+}
+
+.callback {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 650px;
+  margin-bottom: 250px;
+}
+
+.callback iframe {
+  border: 0;
+  position: absolute;
+  left: -65%;
+  width: 100%;
+  height: 100%;
+}
+
+.callback-right {
+  position: absolute;
+  padding-left: 165px;
+  padding-top: 62px;
+  padding-bottom: 74px;
+  height: 100%;
+  right: -505px;
+  width: 100%;
+  background: url(../assets/images/feedback-bg.png), linear-gradient(90deg, #333333, #333333);
+}
+.callback-right .section-title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.callback-content {
+  max-width: 370px;
+}
+.callback-content form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.callback-content form input[name=user__name], .callback-content form input[name=user__email], .callback-content form textarea {
+  padding: 14px 10px 14px 20px;
+}
+.callback-content form input[name=user__name]::-moz-placeholder, .callback-content form input[name=user__email]::-moz-placeholder, .callback-content form textarea::-moz-placeholder {
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+.callback-content form input[name=user__name]:-ms-input-placeholder, .callback-content form input[name=user__email]:-ms-input-placeholder, .callback-content form textarea:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+.callback-content form input[name=user__name]::placeholder, .callback-content form input[name=user__email]::placeholder, .callback-content form textarea::placeholder {
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+.callback-content form input[name=user__email]:focus:valid {
+  border-radius: 5px;
+  box-shadow: 0 0 0 5px green;
+}
+.callback-content form input[name=user__email]:focus:invalid, .callback-content form textarea:invalid {
+  border-radius: 5px;
+  box-shadow: 0 0 0 5px crimson;
+}
+.callback-content form textarea {
+  min-height: 165px;
+  resize: none;
+}
+.callback-content form button {
+  padding: 15px 50px;
+  background-color: #FFBD54;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  align-self: baseline;
+}
+
+.callback-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #EBEBEB;
+}
+
+.footer-content {
+  padding-top: 55px;
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 125px;
+       column-gap: 125px;
+}
+.footer-content .footer-content__left {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 67px;
+       column-gap: 67px;
+}
+.footer-content .footer-links {
+  display: flex;
+  -moz-column-gap: 85px;
+       column-gap: 85px;
+}
+.footer-content .footer-links ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.footer-content .footer-links ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.footer-content__right {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  -moz-column-gap: 112px;
+       column-gap: 112px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footer-content__right .days {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+}
+.footer-content__right .days::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -25px;
+}
+
+.footer-content__right address {
+  position: relative;
+  max-width: 155px;
+}
+.footer-content__right address::before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  top: 0;
+}
+
+.footer-content .header-top__phone-links-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.copy {
+  text-align: right;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5C5C5C;
 }/*# sourceMappingURL=style.css.map */
