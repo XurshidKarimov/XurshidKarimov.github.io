@@ -491,4 +491,313 @@ body {
   line-height: 26px;
   color: #333333;
   font-style: normal;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: #333333;
+}
+
+.uslugi {
+  margin-bottom: 170px;
+}
+
+.uslugi h2.section-title {
+  margin-bottom: 80px;
+}
+
+.uslugi-content-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.slider-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.slider-content li {
+  padding: 30px 35px;
+  width: 195px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 22px;
+  background-color: white;
+  box-shadow: 0 0 1.2px lightgray;
+}
+
+.slider-content li img {
+  width: 55px;
+  height: 80px;
+}
+
+.slider-content li span {
+  text-align: center;
+}
+
+.sld-left, .sld-rght {
+  font-size: 27px;
+  cursor: pointer;
+  color: #FFBD54;
+}
+
+.uslugi-desc {
+  padding: 42px 135px 42px 35px;
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  -moz-column-gap: 65px;
+       column-gap: 65px;
+  background-color: white;
+  box-shadow: 0 0 1.2px lightgray;
+}
+
+.uslugi-desc-imgbox {
+  min-width: 525px;
+  height: 330px;
+}
+
+.uslugi-desc-imgbox img {
+  width: 100%;
+  height: 100%;
+}
+
+.uslugi-desc-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.uslugi-desc-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.uslugi-desc-subtitle_block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.uslugi-desc-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.uslugi-desc-btn__block {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin-top: 30px;
+}
+
+.uslugi-btn {
+  padding: 15px 35px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.uslugi-btn:nth-child(1) {
+  background-color: #FFBD54;
+}
+
+.uslugi-btn:nth-child(2) {
+  background-color: #333333;
+}
+
+.sobitii {
+  background: url(../assets/images/budvkurse.jpg);
+  background-repeat: repeat-x;
+  margin-bottom: 215px;
+}
+
+.sobitii-content {
+  padding-top: 90px;
+  padding-bottom: 150px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding-left: 140px;
+}
+.sobitii-content img {
+  position: absolute;
+  top: -108px;
+  right: 0;
+}
+.sobitii-content .section-title {
+  color: white;
+  margin-bottom: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.sobitii-content form {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.sobitii-content form input[type=email] {
+  padding: 15px 10px 15px 20px;
+  width: 335px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.sobitii-content form input[type=email]::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.sobitii-content form input[type=email]:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.sobitii-content form input[type=email]::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.sobitii-content form input[type=email]:focus:valid {
+  box-shadow: 0 0 0 2px green;
+}
+.sobitii-content form input[type=email]:focus:invalid {
+  box-shadow: 0 0 0 2px red;
+}
+
+.sobitii-content form input[type=submit] {
+  padding: 15px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.poleznie .section-title {
+  margin-bottom: 80px;
+}
+
+.poleznie-card-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.poleznie-card-list li:nth-child(odd) {
+  width: 305px;
+  min-height: 435px;
+  box-shadow: 0 0 3px lightgray;
+  border-radius: 5px;
+}
+.poleznie-card-list li:nth-child(odd) .poleznie-item-imgbox {
+  width: 100%;
+  height: 180px;
+}
+.poleznie-card-list li:nth-child(odd) .poleznie-item-imgbox img {
+  min-width: 100%;
+  height: 100%;
+}
+
+.poleznie-card-list li:nth-child(2) {
+  display: flex;
+  width: 645px;
+  box-shadow: 0 0 3px lightgray;
+  border-radius: 5px;
+}
+.poleznie-card-list li:nth-child(2) .poleznie-item-imgbox {
+  min-width: 305px;
+}
+.poleznie-card-list li:nth-child(2) .poleznie-item-imgbox img {
+  min-width: 100%;
+  height: 100%;
+}
+
+.poleznie-item-content {
+  padding: 20px 30px 35px;
+}
+.poleznie-item-content time {
+  display: block;
+  text-align: right;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+  margin-bottom: 2px;
+}
+.poleznie-item-content a.poleznie-btn {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.poleznie-card-list li:nth-child(2) .poleznie-item-content {
+  padding: 40px 30px 35px;
+}
+.poleznie-card-list li:nth-child(2) .poleznie-item-content .hashtags a {
+  font-size: 14px;
+  line-height: 22px;
+  color: #3D9CEA;
+}
+.poleznie-card-list li:nth-child(2) .poleznie-item-content a.poleznie-btn {
+  position: relative;
+  bottom: -60px;
+}
+
+.poleznie-item-content .poleznie-item-content__title {
+  max-width: 180px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.poleznie-item:nth-child(odd) .poleznie-item-content .poleznie-item-content__subtitle {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.poleznie-item:nth-child(1n+1) .poleznie-item-content .poleznie-item-content__subtitle {
+  margin-bottom: 35px;
+  color: #949494;
 }/*# sourceMappingURL=style.css.map */
