@@ -156,4 +156,18 @@ ol[class] {
 body {
   font-family: "Futura PT", sans-serif;
   font-weight: 500;
+}
+
+body {
+  background: url(../assets/images/allpage-bg.png);
+}
+
+.container {
+  max-width: 1340px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-top {
+  background: transparent;
 }/*# sourceMappingURL=style.css.map */

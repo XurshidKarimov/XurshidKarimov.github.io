@@ -1,2 +1,19 @@
 @import "nullstyle.scss";
 @import "fonts.scss";
+
+
+
+body{
+    background: url(../assets/images/allpage-bg.png);
+}
+
+.container{
+    max-width: 1340px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-top{
+    background: transparent;
+}
+
