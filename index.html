@@ -7,10 +7,11 @@
     <meta name="description" content="Describe your site">
     <meta name="keywords" content="Keywords, for, search">
     <link rel="shortcut icon" href="./assets/logo/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./min.css">
     <title>VET</title>
   </head>
   <body>
+<!-- HEADER START -->
     <header>
       <div class="header-top">
         <div class="container">
@@ -84,6 +85,9 @@
         </div>
       </div>
     </header>
+<!-- HEADER END -->
+
+<!-- MAIN START -->
     <main>
       <section class="main-page">
         <div class="container">
@@ -281,13 +285,16 @@
             <form action="https://echo.htmlacademy.ru/" method="post" enctype="multipart/form-data">
               <input type="text" name="user__name" placeholder="Ваше имя">
               <input type="email" name="user__email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email для обратной связи">
-              <textarea name="user__txt" minlength="3" placeholder="Опишите Ваш вопрос.&#10Например: в каком возрасте можно прививать от бешенства?"></textarea>
+              <textarea name="user__txt" minlength="3" placeholder="Опишите Ваш вопрос.&#10;Например: в каком возрасте можно прививать от бешенства?"></textarea>
               <button type="submit">Задать нам вопрос</button>
             </form>
           </div>
         </div>
       </section>
     </main>
+<!-- MAIN END -->
+
+<!-- FOOTER START -->
     <footer>
       <div class="container">
         <div class="footer-content">
@@ -298,8 +305,8 @@
             <div class="footer-links">
               <ul>
                 <li><a href="#">Главная</a></li>
-                <li><a href="#">О Клинике</a></li>
-                <li><a href="#">Наши Услуги</a></li>
+                <li><a  href="#">О Клинике</a></li>
+                <li><a  href="#">Наши Услуги</a></li>
               </ul>
               <ul>
                 <li><a href="#">Полезные Статьи</a></li>
@@ -346,6 +353,8 @@
         <div class="copy">© 2020 example. All Rights Reserved.</div>
       </div>
     </footer>
+<!-- FOOTER END -->
+
     <script src="./js/index.js"></script>
   </body>
 </html>

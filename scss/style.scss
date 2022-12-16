@@ -2,6 +2,23 @@
 @import "fonts.scss";
 
 
+button, input[type="submit"], a[class*="btn"], .sld-left, .sld-rght,
+a[class*='btn'], a[class*='button'] 
+{
+    transition: linear .3s;
+    &:hover{
+        opacity: .8;
+    }
+    &:active{
+        opacity: .6;
+    }
+}
+
+:root{
+    --orange: #FFBD54;
+    --black: #333333;
+    --gray: #949494;
+}
 
 body{
     background: url(../assets/images/allpage-bg.png);
@@ -108,7 +125,6 @@ body{
 }
 
 .header-bottom__content{
-    // padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,6 +137,13 @@ body{
     width: 178px;
     height: 86px;
     transform: scale(1.1);
+    transition: linear .2s;
+    &:hover{
+        opacity: .8;
+    }
+    &:active{
+        opacity: .6;
+    }
 }
 
 .header-logo img{
@@ -626,8 +649,6 @@ body{
     color: #949494;
 }
 
-
-
 .callback{
    max-width: 1440px;
    margin: 0 auto;
@@ -681,7 +702,10 @@ body{
             line-height: 21px;
             color: #949494;
         }
-        & input[name="user__email"]:focus:valid{
+        & input[name="user__name"]:focus:valid,
+        & input[name="user__email"]:focus:valid,
+        & textarea:focus:valid
+        {
             border-radius: 5px;
             box-shadow: 0 0 0 5px green;
         }
@@ -725,10 +749,19 @@ footer{
     display: flex;
     align-items: center;
     column-gap: 125px;
+    & .logo{
+        &:hover{
+            opacity: .8;
+        }
+        &:active{
+            opacity: .6;
+        }
+    }
+   
     & .footer-content__left{
        display: flex;
        align-items: center;
-        column-gap: 67px;
+       column-gap: 67px;
     }
     & .footer-links{
         display: flex;
@@ -742,6 +775,23 @@ footer{
                 font-size: 16px;
                 line-height: 21px;
                 color: #333333;
+                position: relative;
+                z-index: 5;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    display: none;
+                    left: 0;
+                    bottom: 5px;
+                    background-color: #FFBD5490;
+                    min-width: 100%;
+                    height: 4px;
+                    z-index: -1;
+                    transition: linear .3s;
+                }
+                &:hover:after{
+                    display: block;
+                }
             }
         }
     }
@@ -753,8 +803,8 @@ footer{
     flex-grow: 1;
     column-gap: 112px;
     width: fit-content;
-}
 
+}
 
 .footer-content__right .days{
     position: relative;
@@ -786,6 +836,9 @@ footer{
     flex-grow: 1;
 }
 
+.footer-content .footer-links ul li a:hover::after{
+    display: block;
+}
 
 .copy{
     text-align: right;
