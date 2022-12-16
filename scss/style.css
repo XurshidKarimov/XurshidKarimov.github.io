@@ -281,13 +281,13 @@ body {
   display: block;
   width: 178px;
   height: 86px;
-  transform: scale(1.4);
+  transform: scale(1.1);
 }
 
 .header-logo img {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 106%;
+  height: 112%;
   top: -10px;
   left: -75px;
 }
@@ -394,6 +394,11 @@ body {
 .main-page__content img[src*=parrot] {
   bottom: -20px;
   right: -105px;
+}
+
+.main-page__content img[src*=lapa-right] {
+  right: -75px;
+  bottom: -19px;
 }
 
 .main-page__content-start img {
