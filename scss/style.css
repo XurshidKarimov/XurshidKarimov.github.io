@@ -367,4 +367,14 @@ body {
   line-height: 21px;
   text-align: right;
   color: #333333;
+}
+
+.main-page__content {
+  position: relative;
+  display: flex;
+}
+
+.main-page__content img[src*=decors],
+.main-page__content img[src*=parrot] {
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
