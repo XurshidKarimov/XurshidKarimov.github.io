@@ -416,4 +416,15 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #949494;
+  margin-bottom: 40px;
+}
+
+.main-page__btn {
+  padding: 15px 50px;
+  background-color: #333333;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border-radius: 3px;
 }/*# sourceMappingURL=style.css.map */
